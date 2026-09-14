@@ -2,7 +2,7 @@
 
 **Yazılım geliştirici — Türkiye mevzuatına göre çalışan açık kaynak hesaplama araçları yazıyorum.**
 
-[korayoner.dev](https://korayoner.dev) · [hesap-cekirdegi (npm)](https://www.npmjs.com/package/hesap-cekirdegi)
+[korayoner.dev](https://korayoner.dev) · [hesap-cekirdegi (npm)](https://www.npmjs.com/package/hesap-cekirdegi) · [ORCID 0009-0005-8730-3577](https://orcid.org/0009-0005-8730-3577)
 
 ---
 
@@ -10,7 +10,7 @@
 
 [korayoner.dev](https://korayoner.dev) üzerinde **44 hesaplama aracı** ve mevzuat yazısı yayımlıyorum: brüt–net maaş, kıdem ve ihbar tazminatı, gelir vergisi, MTV, ÖTV, kira geliri, işsizlik maaşı, kredi maliyeti.
 
-Bu araçların ortak derdi şu: bir hesaplama aracında hata **sessizdir**. Yanlış bir parametre girilirse sayfa açılmaya devam eder, tablo hizalı görünür, kimse uyarı almaz — yalnızca sonuç yanlıştır. Bu yüzden her yasal parametrenin tek bir kaynağı var ve motorlar **1.713 testle** sabitli. Kanun değiştiğinde testler kırılıyor; sayfa sessizce eskimiyor.
+Bu araçların ortak derdi şu: bir hesaplama aracında hata **sessizdir**. Yanlış bir parametre girilirse sayfa açılmaya devam eder, tablo hizalı görünür, kimse uyarı almaz — yalnızca sonuç yanlıştır. Bu yüzden her yasal parametrenin tek bir kaynağı var ve motorlar **1.728 testle** sabitli. Kanun değiştiğinde testler kırılıyor; sayfa sessizce eskimiyor.
 
 - **Bağımlılık yok, derleme adımı yok.** Aynı kod hem tarayıcıda hem Node.js'te çalışıyor.
 - **Hesap yöntemi açık.** Her aracın metodoloji sayfası ve testleri herkese açık.
@@ -59,7 +59,7 @@ yil.aylar[0].net;    // Ocak neti
 yil.aylar[11].net;   // Aralık neti — kümülatif vergi yüzünden daha düşük
 ```
 
-Bağımlılıksız, MIT, 1.713 testle sabitli. Bordro, tazminat, emeklilik, kira geliri, kredi ve vergi hesapları.
+Bağımlılıksız, MIT, 1.728 testle sabitli. Bordro, tazminat, emeklilik, kira geliri, kredi ve vergi hesapları.
 
 Diğer projeler: **[keymint](https://github.com/onerkoray/keymint)** (parola üreteci ve güç testi) · **[dither-studio](https://github.com/onerkoray/dither-studio)** (görsel dithering) · **[decorpalette](https://github.com/onerkoray/decorpalette)** (renk paleti)
 
@@ -69,7 +69,7 @@ Diğer projeler: **[keymint](https://github.com/onerkoray/keymint)** (parola ür
 
 I'm a software developer building **open-source calculation tools for Turkish tax and labour legislation** — payroll, severance, income tax, vehicle tax, rental income and credit cost.
 
-The problem these tools solve is that errors in a calculator are **silent**: get one legal parameter wrong and the page still renders, the table still lines up, and only the answer is wrong. So every legal parameter has a single source and the engines are pinned by **1,713 tests** that break when the law changes.
+The problem these tools solve is that errors in a calculator are **silent**: get one legal parameter wrong and the page still renders, the table still lines up, and only the answer is wrong. So every legal parameter has a single source and the engines are pinned by **1,728 tests** that break when the law changes.
 
 The engine is published as [`hesap-cekirdegi`](https://www.npmjs.com/package/hesap-cekirdegi) — dependency-free, no build step, the same code in the browser and in Node.js, MIT licensed.
 
@@ -77,6 +77,6 @@ The engine is published as [`hesap-cekirdegi`](https://www.npmjs.com/package/hes
 
 ## Bağlantılar
 
-[Web sitesi](https://korayoner.dev) · [Hakkımda](https://korayoner.dev/hakkimda/) · [LinkedIn](https://www.linkedin.com/in/korayoner/) · [X](https://x.com/koraonerdev) · [Substack](https://korayoner.substack.com/) · [Medium](https://onerkoray.medium.com/) · [Instagram](https://www.instagram.com/korayonerv/)
+[Web sitesi](https://korayoner.dev) · [Hakkımda](https://korayoner.dev/hakkimda/) · [ORCID iD 0009-0005-8730-3577](https://orcid.org/0009-0005-8730-3577) · [LinkedIn](https://www.linkedin.com/in/korayoner/) · [X](https://x.com/koraonerdev) · [Substack](https://korayoner.substack.com/) · [Medium](https://onerkoray.medium.com/) · [Instagram](https://www.instagram.com/korayonerv/)
 
 İletişim: [iletisim@korayoner.dev](mailto:iletisim@korayoner.dev)
